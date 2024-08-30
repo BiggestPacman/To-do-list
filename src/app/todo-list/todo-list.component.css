@@ -1,0 +1,91 @@
+/* General body styling */
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container for the to-do list */
+  .todo-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+  }
+  
+  /* Title of the to-do list */
+  .todo-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input field and button */
+  .todo-container .input-group {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .todo-container .input-group input[type="text"],
+  .todo-container .input-group input[type="date"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .todo-container .input-group button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .todo-container .input-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .custom-paragraph {
+    font-family: 'Arial', sans-serif; /* Change the font family if desired */
+    font-weight: bold; /* Makes the text bold */
+    font-size: 2rem; /* Adjust the font size */
+    border-bottom: 2px solid #007bff; /* Adds a bottom border with the same color as text-primary */
+    text-transform: uppercase; /* Makes the text uppercase */
+    letter-spacing: 1px; /* Adds spacing between letters */
+    background-color: rgba(0, 123, 255, 0.1); /* Adds a light background color behind the text */
+    padding: 10px; /* Adds padding around the text */
+    border-radius: 4px; /* Rounds the corners of the background */
+  }
+  .btn{
+    color: white;
+  }
+  
+  .btn-danger{
+    color: red;
+  }
+  .btn-primary{
+    color: aqua;
+    background-color: #007bff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+  }
+
+.ms-2{
+    background-color:red;
+    color: white;
+
+  }
+
+  
